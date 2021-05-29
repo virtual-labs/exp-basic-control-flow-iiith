@@ -1,18 +1,32 @@
 [
-{"question":"This is a Sample Question 1?",
+ {"question":"1. The default scope of the if statement is only the next statement.",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"True",
+            "b":"False"
           },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+     "correctAnswer":"a"},
+     {"question":"2. For every if block there is always a corresponding else block",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"True",
+            "b":"False"
           },
-"correctAnswer":"c"} 
+      "correctAnswer":"b"},
+     {"question":"3. Float expressions are allowed in switch cases",
+"answers":{
+            "a":"Yes",
+            "b":"No"
+          },
+      "correctAnswer":"b"},
+     {"question":"4. Switch cases works faster than equivalent if-else ladder",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+     "correctAnswer":"a"},
+    {"question":"5. The case keyword is followed by an integer or a character constant.",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"} 
 ]
