@@ -1,32 +1,86 @@
 [
- {"question":"1. The default scope of the if statement is only the next statement.",
+{"question":"1. What will be the output for this code: <br/>  <img src='images/code11.png'",
 "answers":{
-            "a":"True",
-            "b":"False"
+            "a":"A",
+            "b":"B",
+            "c":"AC",
+            "d":"BC"   
           },
-     "correctAnswer":"a"},
-     {"question":"2. For every if block there is always a corresponding else block",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-      "correctAnswer":"b"},
-     {"question":"3. Float expressions are allowed in switch cases",
+"correctAnswer":"c"},
+
+{"question":"2. Float expressions are allowed in switch cases",
 "answers":{
             "a":"Yes",
             "b":"No"
           },
       "correctAnswer":"b"},
-     {"question":"4. Switch cases works faster than equivalent if-else ladder",
+
+{"question":"3. Switch cases works faster than equivalent if-else ladder",
 "answers":{
             "a":"True",
             "b":"False"
           },
      "correctAnswer":"a"},
-    {"question":"5. The case keyword is followed by an integer or a character constant.",
+    
+{"question":"4. The case keyword is followed by an integer or a character constant.",
 "answers":{
             "a":"True",
             "b":"False"
           },
-"correctAnswer":"a"} 
+"correctAnswer":"a"},
+
+{"question":"5. What will be the output for this code: <br/>  <img src='images/code15.png'>",
+"answers":{
+            "a":"I",
+            "b":"Love",
+            "c":"Programming",
+            "d":"I Love Programming" 
+          },
+"correctAnswer":"d"},
+
+{"question":"6. What will be the output for this code: <br/>  <img src='images/code16.png'>",
+"answers":{
+            "a":"I",
+            "b":"Love",
+            "c":"Programming",
+            "d":"I Love Programming" 
+          },
+"correctAnswer":"c"},
+
+{"question":"7. What will be the output for this code: <br/>  <img src='images/code17.png'>",
+"answers":{
+            "a":"Hi",
+            "b":"Bye",
+            "c":"Invalid Syntax",
+            "d":"HiBye" 
+          },
+"correctAnswer":"b"},
+ 
+{"question":"8. What will be the output for this code: <br/>  <img src='images/code18.png'>",
+"answers":{
+            "a":"Hi",
+            "b":"Bye",
+            "c":"Invalid Syntax",
+            "d":"HiBye" 
+          },
+"correctAnswer":"b"},
+ 
+{"question":"9. What will be the output for this code: <br/>  <img src='images/code17.png'>",
+"answers":{
+            "a":"Hi",
+            "b":"Bye",
+            "c":"HiHello",
+            "d":"HiBye" 
+          },
+"correctAnswer":"c"},
+ 
+{"question":"10. What will be the output for this code: <br/>  <img src='images/code20.png'>",
+"answers":{
+            "a":"Hello",
+            "b":"World",
+            "c":"Hello World",
+            "d":"Invalid Syntax" 
+          },
+"correctAnswer":"b"} 
+
 ]
