@@ -6,8 +6,3 @@ The if construct, for example, excecutes a set of instructions only if a conditi
 
 Apart from this, there is another class of constructs called loops, which can be used to repeat a set of instructions.This repetition can be done a fixed number of times or until some specific condition is met. Just like the conditionals, the loops can also be nested. Loops and conditionals can also be nested inside each other. In this lab, we shall see the working of conditional constructs.
 
-
-#### Objective
-
-1. To learn how decision making is done while programming.
-2. To learn about the various simple constructs used for control flow. 
