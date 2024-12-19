@@ -61,7 +61,7 @@
           },
 "correctAnswer":"b"},
 
-    {"question":"9. wWhat will be the output for this code: <br/> <img src='images/code9.png'>",
+    {"question":"9. What will be the output for this code: <br/> <img src='images/code9.png'>",
 "answers":{
             "a":"Hi",
             "b":"Bye",
