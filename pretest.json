@@ -1,0 +1,82 @@
+[
+{"question":"1. Which statement is used in Switch to prevent fall through.",
+"answers":{
+            "a":"Break",
+            "b":"Continue",
+            "c":"Exit",
+            "d":"else"
+          },
+"correctAnswer":"a"},
+
+{"question":"2. Every switch construct can be replaced by a series of if-else statements",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"},
+
+{"question":"3. In an if-else construct, curly braces can be ignored for the else part if the block contains only one statement",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"},
+
+{"question":"4. An if-else construct can be replaced by a set of if constructs",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"},
+
+{"question":"5. The default scope of the if statement is only the next statement.",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"},
+
+{"question":"6. For every if block there is always a corresponding else block",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"b"},
+
+{"question":"7. What will be the output for this code: <br/>  <img src='images/code7.png'>",
+"answers":{
+            "a":"Hi",
+            "b":"Bye",
+            "c":"HiBye",
+            "d":"Invalid Syntax"
+          },
+"correctAnswer":"a"},
+
+    {"question":"8. What will be the output for this code: <br/> <img src='images/code8.png'",
+"answers":{
+            "a":"Hi",
+            "b":"Bye",
+            "c":"HiBye",
+            "d":"Invalid Syntax"
+          },
+"correctAnswer":"b"},
+
+    {"question":"9. What will be the output for this code: <br/> <img src='images/code9.png'>",
+"answers":{
+            "a":"Hi",
+            "b":"Bye",
+            "c":"HiBye",
+            "d":"Invalid Syntax"
+          },
+"correctAnswer":"a"},
+
+    {"question":"10. What will be the output for this code: <br/>  <img src='images/code10.png'>",
+"answers":{
+            "a":"Dhoni",
+            "b":"Hussey",
+            "c":"D villers",
+            "d":"Invalid Syntax"
+          },
+"correctAnswer":"a"}
+
+]
