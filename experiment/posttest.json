@@ -1,86 +1,153 @@
-[
-{"question":"1. What will be the output for this code: <br/>  <img src='images/code11.png'",
-"answers":{
-            "a":"A",
-            "b":"B",
-            "c":"AC",
-            "d":"BC"   
-          },
-"correctAnswer":"c"},
-
-{"question":"2. Float expressions are allowed in switch cases",
-"answers":{
-            "a":"Yes",
-            "b":"No"
-          },
-      "correctAnswer":"b"},
-
-{"question":"3. Switch cases works faster than equivalent if-else ladder",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-     "correctAnswer":"a"},
-    
-{"question":"4. The case keyword is followed by an integer or a character constant.",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-"correctAnswer":"a"},
-
-{"question":"5. What will be the output for this code: <br/>  <img src='images/code15.png'>",
-"answers":{
-            "a":"I",
-            "b":"Love",
-            "c":"Programming",
-            "d":"I Love Programming" 
-          },
-"correctAnswer":"d"},
-
-{"question":"6. What will be the output for this code: <br/>  <img src='images/code16.png'>",
-"answers":{
-            "a":"I",
-            "b":"Love",
-            "c":"Programming",
-            "d":"I Love Programming" 
-          },
-"correctAnswer":"c"},
-
-{"question":"7. What will be the output for this code: <br/>  <img src='images/code17.png'>",
-"answers":{
-            "a":"Hi",
-            "b":"Bye",
-            "c":"Invalid Syntax",
-            "d":"HiBye" 
-          },
-"correctAnswer":"b"},
- 
-{"question":"8. What will be the output for this code: <br/>  <img src='images/code18.png'>",
-"answers":{
-            "a":"Hi",
-            "b":"Bye",
-            "c":"Invalid Syntax",
-            "d":"HiBye" 
-          },
-"correctAnswer":"b"},
- 
-{"question":"9. What will be the output for this code: <br/>  <img src='images/code17.png'>",
-"answers":{
-            "a":"Hi",
-            "b":"Bye",
-            "c":"HiHello",
-            "d":"HiBye" 
-          },
-"correctAnswer":"b"},
- 
-{"question":"10. What will be the output for this code: <br/>  <img src='images/code20.png'>",
-"answers":{
-            "a":"Hello",
-            "b":"World",
-            "c":"Hello World",
-            "d":"Invalid Syntax" 
-          },
-"correctAnswer":"b"} 
-
-]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What will be the output for this code: <br/>  <img src='images/code11.png'>",
+      "answers": {
+        "a": "A",
+        "b": "B",
+        "c": "AC",
+        "d": "BC"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect, explanation: Only 'A' is printed, not the full output.",
+        "b": "Incorrect, explanation: Only 'B' is printed, not the full output.",
+        "c": "Correct. explanation: The code prints 'A' and 'C' as per the logic.",
+        "d": "Incorrect, explanation: 'B' and 'C' are not printed together."
+      }
+    },
+    {
+      "question": "2. Are float expressions allowed in switch cases?",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, explanation: Switch cases only accept integer or character constants.",
+        "b": "Correct. explanation: Float expressions are not allowed in switch cases."
+      }
+    },
+    {
+      "question": "3. Switch cases work faster than equivalent if-else ladders.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. explanation: Switch cases are generally faster due to jump tables.",
+        "b": "Incorrect, explanation: Switch cases are optimized for speed compared to if-else ladders."
+      }
+    },
+    {
+      "question": "4. The case keyword is followed by an integer or a character constant.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. explanation: Case labels must be integer or character constants.",
+        "b": "Incorrect, explanation: Case labels cannot be float or string values."
+      }
+    },
+    {
+      "question": "5. What will be the output for this code: <br/>  <img src='images/code15.png'>",
+      "answers": {
+        "a": "I",
+        "b": "Love",
+        "c": "Programming",
+        "d": "I Love Programming"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect, explanation: Only 'I' is printed, not the full output.",
+        "b": "Incorrect, explanation: Only 'Love' is printed, not the full output.",
+        "c": "Incorrect, explanation: Only 'Programming' is printed, not the full output.",
+        "d": "Correct. explanation: The code prints 'I Love Programming' as per the logic."
+      }
+    },
+    {
+      "question": "6. What will be the output for this code: <br/>  <img src='images/code16.png'>",
+      "answers": {
+        "a": "I",
+        "b": "Love",
+        "c": "Programming",
+        "d": "I Love Programming"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect, explanation: Only 'I' is printed, not the full output.",
+        "b": "Incorrect, explanation: Only 'Love' is printed, not the full output.",
+        "c": "Correct. explanation: The code prints 'Programming' as per the logic.",
+        "d": "Incorrect, explanation: The code does not print all three words together."
+      }
+    },
+    {
+      "question": "7. What will be the output for this code: <br/>  <img src='images/code17.png'>",
+      "answers": {
+        "a": "Hi",
+        "b": "Bye",
+        "c": "Invalid Syntax",
+        "d": "HiBye"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, explanation: 'Hi' is not printed in this code.",
+        "b": "Correct. explanation: The code prints 'Bye' as per the logic.",
+        "c": "Incorrect, explanation: The code is syntactically correct.",
+        "d": "Incorrect, explanation: Both 'Hi' and 'Bye' are not printed together."
+      }
+    },
+    {
+      "question": "8. What will be the output for this code: <br/>  <img src='images/code18.png'>",
+      "answers": {
+        "a": "Hi",
+        "b": "Bye",
+        "c": "Invalid Syntax",
+        "d": "HiBye"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, explanation: 'Hi' is not printed in this code.",
+        "b": "Correct. explanation: The code prints 'Bye' as per the logic.",
+        "c": "Incorrect, explanation: The code is syntactically correct.",
+        "d": "Incorrect, explanation: Both 'Hi' and 'Bye' are not printed together."
+      }
+    },
+    {
+      "question": "9. What will be the output for this code: <br/>  <img src='images/code17.png'>",
+      "answers": {
+        "a": "Hi",
+        "b": "Bye",
+        "c": "HiHello",
+        "d": "HiBye"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, explanation: 'Hi' is not printed in this code.",
+        "b": "Correct. explanation: The code prints 'Bye' as per the logic.",
+        "c": "Incorrect, explanation: 'HiHello' is not printed in this code.",
+        "d": "Incorrect, explanation: Both 'Hi' and 'Bye' are not printed together."
+      }
+    },
+    {
+      "question": "10. What will be the output for this code: <br/>  <img src='images/code20.png'>",
+      "answers": {
+        "a": "Hello",
+        "b": "World",
+        "c": "Hello World",
+        "d": "Invalid Syntax"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect, explanation: 'Hello' is not printed in this code.",
+        "b": "Correct. explanation: The code prints 'World' as per the logic.",
+        "c": "Incorrect, explanation: Both 'Hello' and 'World' are not printed together.",
+        "d": "Incorrect, explanation: The code is syntactically correct."
+      }
+    }
+  ]
+}
