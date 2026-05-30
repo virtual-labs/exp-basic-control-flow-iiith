@@ -22,16 +22,12 @@
       "question": "2. Every switch construct can be replaced by a series of if-else statements.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Depends on the language",
-        "d": "None of these"
+        "b": "False"
       },
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. Any switch-case logic can be implemented using if-else statements.",
-        "b": "Incorrect. Switch-case can always be replaced by if-else, though it may be less efficient.",
-        "c": "Incorrect. In C-like languages, switch can always be replaced by if-else.",
-        "d": "Incorrect. There is always a way to replace switch with if-else."
+        "b": "Incorrect. Switch-case can always be replaced by if-else, though it may be less efficient."
       },
       "difficulty": "beginner"
     },
@@ -39,16 +35,12 @@
       "question": "3. In an if-else construct, curly braces can be ignored for the else part if the block contains only one statement.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Only for if",
-        "d": "Never"
+        "b": "False"
       },
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. Curly braces are optional for single statements in if or else blocks.",
-        "b": "Incorrect. Braces are not required for single statements, but are recommended for clarity.",
-        "c": "Incorrect. The rule applies to both if and else.",
-        "d": "Incorrect. Braces can be omitted for single statements."
+        "b": "Incorrect. Braces are not required for single statements, but are recommended for clarity."
       },
       "difficulty": "beginner"
     },
@@ -56,16 +48,12 @@
       "question": "4. An if-else construct can be replaced by a set of if constructs.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Only in C",
-        "d": "Only in Python"
+        "b": "False"
       },
       "correctAnswer": "b",
       "explanations": {
         "a": "Incorrect. Multiple if statements can replace if-else, but may change logic if not mutually exclusive.",
-        "b": "Correct. If-else can be replaced by if statements, but care must be taken with logic.",
-        "c": "Incorrect. This is not language-specific.",
-        "d": "Incorrect. This is not language-specific."
+        "b": "Correct. If-else can be replaced by if statements, but care must be taken with logic."
       },
       "difficulty": "intermediate"
     },
@@ -73,16 +61,12 @@
       "question": "5. The default scope of the if statement is only the next statement.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Depends on indentation",
-        "d": "Depends on language"
+        "b": "False"
       },
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. If braces are omitted, only the next statement is controlled by the if.",
-        "b": "Incorrect. Without braces, only the next statement is included in the if block.",
-        "c": "Incorrect. Indentation does not affect scope in C/C++/Java.",
-        "d": "Incorrect. This is true for most C-like languages."
+        "b": "Incorrect. Without braces, only the next statement is included in the if block."
       },
       "difficulty": "intermediate"
     },
@@ -90,16 +74,12 @@
       "question": "6. For every if block there is always a corresponding else block.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Only in Python",
-        "d": "Only in C"
+        "b": "False"
       },
       "correctAnswer": "b",
       "explanations": {
         "a": "Incorrect. An else block is optional for an if statement.",
-        "b": "Correct. An if statement does not require an else block.",
-        "c": "Incorrect. This is not language-specific.",
-        "d": "Incorrect. This is not language-specific."
+        "b": "Correct. An if statement does not require an else block."
       },
       "difficulty": "beginner"
     },
@@ -111,12 +91,12 @@
         "c": "HiBye",
         "d": "Invalid Syntax"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "explanations": {
-        "a": "Incorrect. The code prints 'Hi' as the condition is true, but for this version, the correct answer is mapped to 'd'.",
+        "a": "Correct. The code prints 'Hi' as the condition is true.",
         "b": "Incorrect. 'Bye' is not printed in this code.",
         "c": "Incorrect. Only 'Hi' is printed, not both.",
-        "d": "Correct. The code is syntactically correct."
+        "d": "Incorrect. The code is syntactically correct."
       },
       "difficulty": "intermediate"
     },
@@ -145,11 +125,11 @@
         "c": "HiBye",
         "d": "Invalid Syntax"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "explanations": {
-        "a": "Incorrect. The code prints 'Hi' as the condition is true, but for this version, the correct answer is mapped to 'c'.",
+        "a": "Correct. The code prints 'Hi' as the condition is true.",
         "b": "Incorrect. 'Bye' is not printed in this code.",
-        "c": "Correct. Only 'Hi' is printed, not both.",
+        "c": "Incorrect. Only 'Hi' is printed, not both.",
         "d": "Incorrect. The code is syntactically correct."
       },
       "difficulty": "intermediate"
@@ -162,10 +142,10 @@
         "c": "D villers",
         "d": "Invalid Syntax"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "explanations": {
-        "a": "Incorrect. The code prints 'Dhoni' as per the condition, but for this version, the correct answer is mapped to 'b'.",
-        "b": "Correct. 'Hussey' is not printed in this code.",
+        "a": "Correct. The code prints 'Dhoni' as per the condition.",
+        "b": "Incorrect. 'Hussey' is not printed in this code.",
         "c": "Incorrect. 'D villers' is not printed in this code.",
         "d": "Incorrect. The code is syntactically correct."
       },

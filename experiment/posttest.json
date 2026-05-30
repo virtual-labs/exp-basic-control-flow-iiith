@@ -9,12 +9,12 @@
         "c": "AC",
         "d": "BC"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "c",
       "explanations": {
         "a": "Incorrect. Only 'A' is printed, not the full output.",
         "b": "Incorrect. Only 'B' is printed, not the full output.",
-        "c": "Incorrect. The code prints 'A' and 'C', but for this version, the correct answer is mapped to 'd'.",
-        "d": "Correct. The code prints 'A' and 'C' as per the logic."
+        "c": "Correct. The code prints 'A' and 'C' as per the logic.",
+        "d": "Incorrect. 'B' and 'C' are not printed together."
       },
       "difficulty": "beginner"
     },
@@ -22,16 +22,12 @@
       "question": "2. Are float expressions allowed in switch cases?",
       "answers": {
         "a": "Yes",
-        "b": "No",
-        "c": "Only in C++",
-        "d": "Only in Python"
+        "b": "No"
       },
       "correctAnswer": "b",
       "explanations": {
         "a": "Incorrect. Switch cases only accept integer or character constants.",
-        "b": "Correct. Float expressions are not allowed in switch cases.",
-        "c": "Incorrect. C++ also does not allow float in switch cases.",
-        "d": "Incorrect. Python does not have switch statements."
+        "b": "Correct. Float expressions are not allowed in switch cases."
       },
       "difficulty": "beginner"
     },
@@ -39,16 +35,12 @@
       "question": "3. Switch cases work faster than equivalent if-else ladders.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Depends on compiler",
-        "d": "Depends on input"
+        "b": "False"
       },
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. Switch cases are generally faster due to jump tables.",
-        "b": "Incorrect. Switch cases are optimized for speed compared to if-else ladders.",
-        "c": "Incorrect. While compiler optimizations matter, switch is generally faster.",
-        "d": "Incorrect. Input does not affect the structure's speed."
+        "b": "Incorrect. Switch cases are optimized for speed compared to if-else ladders."
       },
       "difficulty": "intermediate"
     },
@@ -56,16 +48,12 @@
       "question": "4. The case keyword is followed by an integer or a character constant.",
       "answers": {
         "a": "True",
-        "b": "False",
-        "c": "Only in Java",
-        "d": "Only in Python"
+        "b": "False"
       },
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. Case labels must be integer or character constants.",
-        "b": "Incorrect. Case labels cannot be float or string values.",
-        "c": "Incorrect. This is true for C, C++, and Java.",
-        "d": "Incorrect. Python does not have switch statements."
+        "b": "Incorrect. Case labels cannot be float or string values."
       },
       "difficulty": "beginner"
     },
@@ -77,12 +65,12 @@
         "c": "Programming",
         "d": "I Love Programming"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "explanations": {
         "a": "Incorrect. Only 'I' is printed, not the full output.",
-        "b": "Correct. The code prints 'I Love Programming' as per the logic, but for this version, the correct answer is mapped to 'b'.",
+        "b": "Incorrect. Only 'Love' is printed, not the full output.",
         "c": "Incorrect. Only 'Programming' is printed, not the full output.",
-        "d": "Incorrect. The code prints 'I Love Programming' as per the logic."
+        "d": "Correct. The code prints 'I Love Programming' as per the logic."
       },
       "difficulty": "intermediate"
     },
@@ -107,15 +95,15 @@
       "question": "7. What will be the output for this code: <br/>  <img src='images/code17.png'>",
       "answers": {
         "a": "Hi",
-        "b": "Bye",
-        "c": "Invalid Syntax",
+        "b": "Invalid Syntax",
+        "c": "Bye",
         "d": "HiBye"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "explanations": {
-        "a": "Correct. The code prints 'Bye' as per the logic, but for this version, the correct answer is mapped to 'a'.",
-        "b": "Incorrect. 'Bye' is not printed in this code.",
-        "c": "Incorrect. The code is syntactically correct.",
+        "a": "Incorrect. 'Hi' is not printed in this code.",
+        "b": "Incorrect. The code is syntactically correct.",
+        "c": "Correct. The code prints 'Bye' as per the logic.",
         "d": "Incorrect. Both 'Hi' and 'Bye' are not printed together."
       },
       "difficulty": "intermediate"
@@ -128,12 +116,12 @@
         "c": "Invalid Syntax",
         "d": "HiBye"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "explanations": {
         "a": "Incorrect. 'Hi' is not printed in this code.",
-        "b": "Incorrect. The code prints 'Bye' as per the logic.",
+        "b": "Correct. The code prints 'Bye' as per the logic.",
         "c": "Incorrect. The code is syntactically correct.",
-        "d": "Correct. Both 'Hi' and 'Bye' are printed together in this code."
+        "d": "Incorrect. Both 'Hi' and 'Bye' are not printed together."
       },
       "difficulty": "intermediate"
     },
@@ -141,16 +129,16 @@
       "question": "9. What will be the output for this code: <br/>  <img src='images/code17.png'>",
       "answers": {
         "a": "Hi",
-        "b": "Bye",
+        "b": "HiBye",
         "c": "HiHello",
-        "d": "HiBye"
+        "d": "Bye"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "explanations": {
         "a": "Incorrect. 'Hi' is not printed in this code.",
-        "b": "Incorrect. The code prints 'Bye' as per the logic.",
-        "c": "Correct. 'HiHello' is printed as per the logic.",
-        "d": "Incorrect. Both 'Hi' and 'Bye' are not printed together."
+        "b": "Incorrect. 'HiBye' is not printed in this code.",
+        "c": "Incorrect. 'HiHello' is not printed in this code.",
+        "d": "Correct. The code prints 'Bye' as per the logic."
       },
       "difficulty": "advanced"
     },
