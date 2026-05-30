@@ -1,16 +1,36 @@
-**Experiment Part I: Position of Point w.r.t to a Rectangle**  
-_Here we shall see how the problem of determining whether a given point is inside or outside a rectangle can be solved using various conditional constructs._  
-1. Initialize the values of the variables on the top left. X and Y denote the x and y coordinate of the input point.  
-2. Select the code prototype with which you would like to solve the problem.  
-3. Click start to begin the expriment.  
-4. Click Next to get a step by step execution of the code along with the reasoning which is displayed on the right hand side panel.  
-**Experiment Part II: Selecting the Day of a week**  
-_Here we shall see how a switching construct works by associating one number to each of the days._  
-1. First, select a day from the top left by clicking on the correspoding radio button or enter any number in the textbox directly. Then, click on SUBMIT.  
-2. Select the code prototype with which you would like to solve the problem.  
-3. Click on the activated START button to begin the experiment.  
-4. Click Next to get a step by step execution of the code. The changes in local variables can be visualized on the bottom left of the screen. The OUTPUT can be visualized on the right part of the screen.
+This experiment consists of two interactive simulations demonstrating basic control flow constructs:
 
-#### Procedure
+### Part I: Position of Point with Respect to a Rectangle (If-Else)
 
-Here you will do two experiments. First will be on finding whether a point is inside or outside rectangle. Secondly you will see a program for selecting a day in the week using switch construct.
+1. **Initialize Variables:**
+   - Enter the X and Y coordinates of the point in the provided input fields (default values are shown).
+   - The rectangle's corner coordinates are displayed for reference.
+2. **Select Code Prototype:**
+   - Use the dropdown menu to choose the code logic (e.g., if-else, if-else-if) for solving the point-in-rectangle problem.
+3. **Confirm Selection:**
+   - Click the **Ok** button to confirm your code selection.
+4. **Start Simulation:**
+   - The **Start** button will be enabled. Click **Start** to begin the step-by-step execution.
+5. **Step Execution:**
+   - Click **Next** to proceed through each step of the code. The current state of variables and reasoning will be displayed.
+6. **Stop/Reset:**
+   - Click **Stop** to abort and reset the simulation at any time.
+
+### Part II: Selecting the Day of the Week (Switch-Case)
+
+1. **Select Day:**
+   - Choose a day by clicking the corresponding radio button (Day 1 to Day 7) or enter a number directly in the textbox.
+2. **Submit Day:**
+   - Click the **Submit Day** button to confirm your selection.
+3. **Start Simulation:**
+   - The **Start** button will be enabled. Click **Start** to begin the step-by-step execution.
+4. **Step Execution:**
+   - Click **Next** to proceed through each step of the switch-case code. The output and changes in variables will be shown.
+5. **Reset:**
+   - Click **Reset** to restart the simulation with a new input.
+
+---
+
+**Note for Mobile Users:**
+
+This simulation is optimized for desktop computers with larger screens and mouse interaction. If you access this experiment on a mobile device, please rotate your device to **landscape mode** for the best experience. Some features may be limited or harder to use on small screens.
