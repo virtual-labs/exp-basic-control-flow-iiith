@@ -11,11 +11,12 @@
       },
       "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect, explanation: Only 'A' is printed, not the full output.",
-        "b": "Incorrect, explanation: Only 'B' is printed, not the full output.",
-        "c": "Correct. explanation: The code prints 'A' and 'C' as per the logic.",
-        "d": "Incorrect, explanation: 'B' and 'C' are not printed together."
-      }
+        "a": "Incorrect. Only 'A' is printed, not the full output.",
+        "b": "Incorrect. Only 'B' is printed, not the full output.",
+        "c": "Correct. The code prints 'A' and 'C' as per the logic.",
+        "d": "Incorrect. 'B' and 'C' are not printed together."
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "2. Are float expressions allowed in switch cases?",
@@ -25,9 +26,10 @@
       },
       "correctAnswer": "b",
       "explanations": {
-        "a": "Incorrect, explanation: Switch cases only accept integer or character constants.",
-        "b": "Correct. explanation: Float expressions are not allowed in switch cases."
-      }
+        "a": "Incorrect. Switch cases only accept integer or character constants.",
+        "b": "Correct. Float expressions are not allowed in switch cases."
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "3. Switch cases work faster than equivalent if-else ladders.",
@@ -37,9 +39,10 @@
       },
       "correctAnswer": "a",
       "explanations": {
-        "a": "Correct. explanation: Switch cases are generally faster due to jump tables.",
-        "b": "Incorrect, explanation: Switch cases are optimized for speed compared to if-else ladders."
-      }
+        "a": "Correct. Switch cases are generally faster due to jump tables.",
+        "b": "Incorrect. Switch cases are optimized for speed compared to if-else ladders."
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "4. The case keyword is followed by an integer or a character constant.",
@@ -49,9 +52,10 @@
       },
       "correctAnswer": "a",
       "explanations": {
-        "a": "Correct. explanation: Case labels must be integer or character constants.",
-        "b": "Incorrect, explanation: Case labels cannot be float or string values."
-      }
+        "a": "Correct. Case labels must be integer or character constants.",
+        "b": "Incorrect. Case labels cannot be float or string values."
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "5. What will be the output for this code: <br/>  <img src='images/code15.png'>",
@@ -63,11 +67,12 @@
       },
       "correctAnswer": "d",
       "explanations": {
-        "a": "Incorrect, explanation: Only 'I' is printed, not the full output.",
-        "b": "Incorrect, explanation: Only 'Love' is printed, not the full output.",
-        "c": "Incorrect, explanation: Only 'Programming' is printed, not the full output.",
-        "d": "Correct. explanation: The code prints 'I Love Programming' as per the logic."
-      }
+        "a": "Incorrect. Only 'I' is printed, not the full output.",
+        "b": "Incorrect. Only 'Love' is printed, not the full output.",
+        "c": "Incorrect. Only 'Programming' is printed, not the full output.",
+        "d": "Correct. The code prints 'I Love Programming' as per the logic."
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "6. What will be the output for this code: <br/>  <img src='images/code16.png'>",
@@ -79,27 +84,29 @@
       },
       "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect, explanation: Only 'I' is printed, not the full output.",
-        "b": "Incorrect, explanation: Only 'Love' is printed, not the full output.",
-        "c": "Correct. explanation: The code prints 'Programming' as per the logic.",
-        "d": "Incorrect, explanation: The code does not print all three words together."
-      }
+        "a": "Incorrect. Only 'I' is printed, not the full output.",
+        "b": "Incorrect. Only 'Love' is printed, not the full output.",
+        "c": "Correct. The code prints 'Programming' as per the logic.",
+        "d": "Incorrect. The code does not print all three words together."
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "7. What will be the output for this code: <br/>  <img src='images/code17.png'>",
       "answers": {
         "a": "Hi",
-        "b": "Bye",
-        "c": "Invalid Syntax",
+        "b": "Invalid Syntax",
+        "c": "Bye",
         "d": "HiBye"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect, explanation: 'Hi' is not printed in this code.",
-        "b": "Correct. explanation: The code prints 'Bye' as per the logic.",
-        "c": "Incorrect, explanation: The code is syntactically correct.",
-        "d": "Incorrect, explanation: Both 'Hi' and 'Bye' are not printed together."
-      }
+        "a": "Incorrect. 'Hi' is not printed in this code.",
+        "b": "Incorrect. The code is syntactically correct.",
+        "c": "Correct. The code prints 'Bye' as per the logic.",
+        "d": "Incorrect. Both 'Hi' and 'Bye' are not printed together."
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "8. What will be the output for this code: <br/>  <img src='images/code18.png'>",
@@ -111,27 +118,29 @@
       },
       "correctAnswer": "b",
       "explanations": {
-        "a": "Incorrect, explanation: 'Hi' is not printed in this code.",
-        "b": "Correct. explanation: The code prints 'Bye' as per the logic.",
-        "c": "Incorrect, explanation: The code is syntactically correct.",
-        "d": "Incorrect, explanation: Both 'Hi' and 'Bye' are not printed together."
-      }
+        "a": "Incorrect. 'Hi' is not printed in this code.",
+        "b": "Correct. The code prints 'Bye' as per the logic.",
+        "c": "Incorrect. The code is syntactically correct.",
+        "d": "Incorrect. Both 'Hi' and 'Bye' are not printed together."
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "9. What will be the output for this code: <br/>  <img src='images/code17.png'>",
       "answers": {
         "a": "Hi",
-        "b": "Bye",
+        "b": "HiBye",
         "c": "HiHello",
-        "d": "HiBye"
+        "d": "Bye"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "explanations": {
-        "a": "Incorrect, explanation: 'Hi' is not printed in this code.",
-        "b": "Correct. explanation: The code prints 'Bye' as per the logic.",
-        "c": "Incorrect, explanation: 'HiHello' is not printed in this code.",
-        "d": "Incorrect, explanation: Both 'Hi' and 'Bye' are not printed together."
-      }
+        "a": "Incorrect. 'Hi' is not printed in this code.",
+        "b": "Incorrect. 'HiBye' is not printed in this code.",
+        "c": "Incorrect. 'HiHello' is not printed in this code.",
+        "d": "Correct. The code prints 'Bye' as per the logic."
+      },
+      "difficulty": "advanced"
     },
     {
       "question": "10. What will be the output for this code: <br/>  <img src='images/code20.png'>",
@@ -143,11 +152,29 @@
       },
       "correctAnswer": "b",
       "explanations": {
-        "a": "Incorrect, explanation: 'Hello' is not printed in this code.",
-        "b": "Correct. explanation: The code prints 'World' as per the logic.",
-        "c": "Incorrect, explanation: Both 'Hello' and 'World' are not printed together.",
-        "d": "Incorrect, explanation: The code is syntactically correct."
-      }
+        "a": "Incorrect. 'Hello' is not printed in this code.",
+        "b": "Correct. The code prints 'World' as per the logic.",
+        "c": "Incorrect. Both 'Hello' and 'World' are not printed together.",
+        "d": "Incorrect. The code is syntactically correct."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "11. Which of the following is an advantage of using switch over if-else ladders in C?",
+      "answers": {
+        "a": "Switch is always faster for all cases.",
+        "b": "Switch allows multi-way branching with constant time lookup for many cases.",
+        "c": "Switch can handle floating point cases.",
+        "d": "Switch is used for loops."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Switch is not always faster, but is generally faster for many cases due to jump tables.",
+        "b": "Correct. Switch allows multi-way branching with constant time lookup for many cases.",
+        "c": "Incorrect. Switch cannot handle floating point cases.",
+        "d": "Incorrect. Switch is not used for loops."
+      },
+      "difficulty": "advanced"
     }
   ]
 }
